@@ -23,7 +23,7 @@ class Job1 implements ShouldQueue
     public function handle(): void
     {
         logger('starting hostname: '.(gethostname())." value: {$this->value}");
-        sleep(1);
+        sleep(5);
         //logger('finished hostname: '.(gethostname())." value: {$this->value}");
     }
 }
