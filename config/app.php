@@ -123,4 +123,6 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'mathias_test_1' => env('MATHIAS_TEST_1'),
+
 ];
